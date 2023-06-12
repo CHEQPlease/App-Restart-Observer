@@ -5,6 +5,7 @@ import 'package:app_restart_observer/enum.dart';
 import 'package:app_restart_observer/hive_utils.dart';
 import 'package:app_restart_observer/model.dart';
 import 'package:flutter/material.dart';
+export 'package:app_restart_observer/extensions.dart';
 
 class AppRestartObserver with WidgetsBindingObserver {
   static AppRestartObserver? _instance;
